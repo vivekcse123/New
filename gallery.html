@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My | Galleries</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        background-color: black;
+        width: 100%;
+        height: 80px;
+    }
+    .logo h1{
+        color: white;
+        font-family: sans-serif;
+        position: relative;
+        top: 20px;
+        margin: 0px 50px;
+    }
+    ul li{
+        list-style: none;
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        position: relative;
+        font-size: 20px;
+        color: white;
+        left: 500px;
+        margin: 0px 50px;  
+        text-transform: uppercase;
+    }
+    ul li a:hover{
+        opacity: 0.8;
+    }
+    .gallery{
+        border: 1px solid black;
+        width: 90%;
+        height: 550px;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        border-radius: 5px;
+    }
+    .photos{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .photos p{
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        position: relative;
+        top: 10px;
+        font-size: 20px;
+    }
+    img{
+        border: 5px solid black;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        position: relative;
+        left: 80px;
+        top: 10px;
+    }
+    .gallery img:hover{
+        border: 5px solid red;
+    }
+</style>
+<body>
+    <div class="logo">
+        <ul>
+            <h1>My Gallery</h1>
+            <li><a href = 'contact.html'>Contact Us</a></li>
+            <li><a href = 'subscribe.html'>Subscribe</a></li>
+            <li><a href = 'query.html'>Query</a></li>
+        </ul>
+    </div>
+    <div class="gallery">
+        <div class="photos">
+            <p>Gallery Images</p>
+        </div>
+        <a href = 'newpage.html'><img src = 'images/image1.jpg' title='view image1'></a>
+        <a href = 'images/image2.jpg'><img src = 'images/image2.jpg' title='view image2'></a>
+        <a href = 'images/image3.jpg'><img src = 'images/image3.jpg' title='view image3'></a>
+        <a href = 'images/image4.jpg'><img src = 'images/image4.jpg' title='view image4'></a>
+        <a href = 'images/image5.jpg'><img src = 'images/image5.jpg' title='view image5'></a>
+        <br><br>
+        <a href = 'images/image6.jpg'><img src = 'images/image6.jpg' title='view image6'></a>
+        <a href = 'images/image7.jpg'><img src = 'images/image7.jpg' title='view image7'></a>
+        <a href = 'images/image8.jpg'><img src = 'images/image8.jpg' title='view image8'></a>
+        <a href = 'images/image9.jpg'><img src = 'images/image9.jpg' title='view image9'></a>
+        <a href = 'images/image10.jpg'><img src = 'images/image10.jpg' title='view image10'></a>
+    </div>
+</body>
+</html>

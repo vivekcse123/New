@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .query{
+        width: 100%;
+        background-color: black;
+        height: 80px;
+    }
+    .query h1{
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        position: relative;
+        top: 20px;
+    }
+    .content{
+        margin: auto;
+        width: 400px;
+        height: 530px;
+        border: 1px solid black;
+        border-radius: 5px;
+        position: relative;
+        top: 100px;
+    }
+    .main{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .main p{
+        position: relative;
+        text-align: center;
+        top: 10px;
+        font-family: sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+    input{
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        outline: none;
+        margin: auto;
+        display: flex;
+        padding: 4px 8px;
+        position: relative;
+        top: 30px;
+    }
+    textarea{
+        width: 300px;
+        margin: auto;
+        position: relative;
+        top: 30px;
+        display: flex;
+        padding: 2px 6px;
+        border-radius: 5px;
+        outline: none;
+    }
+    button{
+        position: relative;
+        width: 320px;
+        height: 50px;
+        left: 40px;
+        top: 45px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="query">
+        <h1>Query</h1>
+        <div class="content">
+            <div class="main">
+                <p>Query</p>
+            </div>
+        <form method = 'get'>
+            <input type="text" name='name' placeholder="Name" required>
+            <br>
+            <input type="email" name='email' placeholder="Email" required>
+            <br>
+            <input type="text" name='number' placeholder="Mobile Number" required>
+            <br>
+            <textarea name="query" id="query" cols="30" rows="10" placeholder="write your query......"></textarea>
+            <button type='submit'>Submit</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
